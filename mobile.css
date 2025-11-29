@@ -1,0 +1,151 @@
+@font-face {
+    font-family:"CandyCane" ;
+    src: url('assets/fonts/Candy\ Cane\ Personal\ Use.ttf');
+}
+@font-face {
+    font-family: "christmasfrost";
+    src: url('assets/fonts/Christmas\ Frost\ -\ Demo.otf');
+}
+@font-face {
+    font-family: "merryland";
+    src: url('assets/fonts/ChristmasMerryland.ttf');
+}
+/* @font-face {
+    font-family:"creamcake" ;
+    src: url('assets/fonts/Cream\ Cake.otf');
+} */
+
+@font-face {
+    font-family: "meddon";
+    src: url('assets/fonts/Meddon-Regular.ttf');
+}
+@font-face {
+    font-family: "meriendabold";
+    src: url('assets/fonts/Merienda-Bold.ttf');
+}
+@font-face {
+    font-family: "meriendaregular";
+    src: url('assets/fonts/Merienda-Regular.ttf');
+}
+@font-face {
+    font-family: "pinyon";
+    src: url('assets/fonts/PinyonScript-Regular.ttf');
+}
+@font-face {
+    font-family: "meriendasemibold";
+    src: url('assets/fonts/Merienda-SemiBold.ttf');
+}
+
+
+body {
+    margin: 0;
+
+    background-color: #442619;
+    color: #d4cbc4;
+
+}
+main {
+    display: grid;
+    place-items: center;
+    margin-top: 10%;
+
+
+}
+@keyframes slide-in {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes shrink {
+
+    25%,
+    75% {
+
+        scale: 100% ;
+    }
+
+    50%{
+        scale: 200% ;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+.homeContainer {
+
+    padding: 20px;
+    margin: 10px;
+    background-color: #ebe1d9;
+    text-align: center;
+    color: #70271c;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 2px 8px 20px 5px  rgb(180, 71, 71) ;
+        animation-name: slide-in;
+    animation-duration: 2.5s;
+}
+
+
+
+.textOne {
+
+    font-family: "merryland";
+    font-size: 25px;
+    animation-name: slide-in;
+    animation-duration: 3s;
+    
+
+
+}
+
+.textOne span {
+
+   background-image: linear-gradient(rgb(154, 44, 44), rgb(28, 112, 28));
+   color: transparent;
+   background-clip: text;
+   
+
+}
+.textTwo {
+    font-family: "meriendaregular";
+
+    animation:  fade 3s forwards;
+    
+
+
+}
+.textTwo strong {
+   font-family: "meddon";
+  font-size: 25px;
+
+
+}
+
+a {
+    text-decoration:underline;
+  color: #70271c;
+    font-family: "meriendaregular";
+       animation-name: shrink;
+    animation-duration: 2.5s;
+}
+
+footer {
+    font-family: "christmasfrost";
+    margin-top: 150px;
+    text-align: center;
+}

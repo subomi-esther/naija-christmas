@@ -1,0 +1,223 @@
+
+
+[
+    {
+        "id": 1,
+        "content": "./chapters/chapter1.txt" ,
+        "publicationDate": "2025-11-28T00:00:00.000Z"
+
+
+    }, 
+    
+    {
+        "id": 2,
+        "content": "./chapters/chapter2.txt" ,
+        "publicationDate": "2025-11-29T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 3,
+        "content": "./chapters/chapter3.txt" ,
+        "publicationDate":  "2025-12-03T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 4,
+        "content": "./chapters/chapter4.txt" ,
+        "publicationDate":  "2025-12-04T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 5,
+        "content": "./chapters/chapter5.txt" ,
+        "publicationDate": "2025-12-05T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 6,
+        "content": "./chapters/chapter6.txt" ,
+        "publicationDate": "2025-12-06T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 7,
+        "content": "./chapters/chapter7.txt" ,
+        "publicationDate": "2025-12-07T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 8,
+        "content": "./chapters/chapter8.txt" ,
+        "publicationDate":  "2025-12-08T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 9,
+        "content": "./chapters/chapter9.txt" ,
+        "publicationDate":  "2025-12-09T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 10,
+        "content": "./chapters/chapter10.txt" ,
+        "publicationDate":  "2025-12-10T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 11,
+        "content": "./chapters/chapter11.txt" ,
+        "publicationDate":  "2025-12-11T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 12,
+        "content": "./chapters/chapter12.txt" ,
+        "publicationDate":  "2025-12-12T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 13,
+        "content": "./chapters/chapter13.txt" ,
+        "publicationDate":  "2025-12-13T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 14,
+        "content": "./chapters/chapter14.txt" ,
+        "publicationDate":  "2025-12-14T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 15,
+        "content": "./chapters/chapter15.txt" ,
+        "publicationDate":  "2025-12-15T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 16,
+        "content": "./chapters/chapter16.txt" ,
+        "publicationDate":  "2025-12-16T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 17,
+        "content": "./chapters/chapter17.txt" ,
+        "publicationDate":  "2025-12-17T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 18,
+        "content": "./chapters/chapter18.txt" ,
+        "publicationDate":  "2025-12-18T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 19,
+        "content": "./chapters/chapter19.txt" ,
+        "publicationDate":  "2025-12-19T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 20,
+        "content": "./chapters/chapter20.txt" ,
+        "publicationDate":  "2025-12-20T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 21,
+        "content": "./chapters/chapter21.txt" ,
+        "publicationDate":  "2025-12-21T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 22,
+        "content": "./chapters/chapter22.txt" ,
+        "publicationDate":  "2025-12-22T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 23,
+        "content": "./chapters/chapter23.txt" ,
+        "publicationDate":  "2025-12-23T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 24,
+        "content": "./chapters/chapter24.txt" ,
+        "publicationDate":  "2025-12-24T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 25,
+        "content": "./chapters/chapter25.txt" ,
+        "publicationDate":  "2025-12-25T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 26,
+        "content": "./chapters/chapter26.txt" ,
+        "publicationDate":  "2025-12-26T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 27,
+        "content": "./chapters/chapter27.txt" ,
+        "publicationDate":  "2025-12-27T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 28,
+        "content": "./chapters/chapter28.txt" ,
+        "publicationDate":  "2025-12-28T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 29,
+        "content": "./chapters/chapter29.txt" ,
+        "publicationDate":  "2025-12-29T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 30,
+        "content": "./chapters/chapter30.txt" ,
+        "publicationDate":  "2025-12-30T00:00:00.000Z"
+
+
+    },
+    {
+        "id": 31,
+        "content": "./chapters/chapter31.txt" ,
+        "publicationDate":  "2025-12-31T00:00:00.000Z"
+
+
+    }
+    
+]
