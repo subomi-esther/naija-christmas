@@ -138,3 +138,12 @@ footer {
     margin-top: 100px;
     text-align: center;
 }
+
+
+@media (prefers-color-scheme: dark) {
+
+    .textOne span {
+        color: #70271c;
+    }
+
+}

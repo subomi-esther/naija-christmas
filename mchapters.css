@@ -267,3 +267,20 @@ a:hover {
     animation-duration: 3s;
 }
 
+@media (prefers-color-scheme: dark) {
+
+input {
+    /* background-color:#dddada; */
+
+background-color: none;
+    border: none;
+    border-radius: 10px;
+    font-family: "pinyon";
+    font-weight: 700;
+    
+}
+
+
+
+
+}
