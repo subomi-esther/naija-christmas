@@ -46,7 +46,7 @@ async function getData() {
       const openDate = new Date(result[index].publicationDate)
       const open = openDate.toISOString().split('T')[0]
       console.log(open)
-      const today = new Date().toISOString().split('T')[0]
+      const today = new Date().toLocaleDateString('en-CA').split('T')[0]
       // console.log(today)
 
 
@@ -110,6 +110,7 @@ cancelPopup.addEventListener('click', function() {
   }
 }
  
+
 
 
 
