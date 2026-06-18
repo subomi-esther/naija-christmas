@@ -6,10 +6,20 @@ const cancelPopup = document.getElementById('exit')
 const backBtn = document.getElementById('toCal')
 const popUp = document.getElementById('popup')
 const chapterContent = document.getElementById('chapterContent')
+const pContent = document.getElementById('pContent')
+// const toCal = document.getElementById('toCal')
+const start = document.getElementById('startBtn')
 
-calender.hidden = false
-chapterContent.hidden = true
-popUp.hidden= true
+
+// start.addEventListener('click', function() {
+//   calender.style.display = 'grid'
+// })
+
+
+// calender.hidden = false
+// chapterContent.hidden = true
+// toCal.hidden = true
+// popUp.hidden= true
 async function getData() {
 
    const url = './data.json'
@@ -23,6 +33,7 @@ async function getData() {
     console.log(result); 
 
     const chapters = []  //created an empty array to store the string text content
+    const cId = []
     // for of loop work with await without having to use async
     for(let ch of result) {
       // ch represents each indiv. objects(each elemnt) in the result array
@@ -31,13 +42,16 @@ async function getData() {
       const text = await res.text() //.text()changes it into a string 
       // console.log(text)
       chapters.push(text) // texts fetched is now added to the empty array
+      cId.push(ch.id)
 
       // console.log(text)
+      
     }
+  //  console.log(cId)
 
 
-
-    //  console.log(result.publicationDate)
+        const para = document.createElement('p')
+        para.className= 'paragraph'
 
      //publication dates are not valid, look into this
      buttons.forEach((btn, index)=> {
@@ -45,23 +59,23 @@ async function getData() {
 
       const openDate = new Date(result[index].publicationDate)
       const open = openDate.toISOString().split('T')[0]
-      console.log(open)
+      // console.log(open)
       const today = new Date().toLocaleDateString('en-CA').split('T')[0]
       // console.log(today)
 
 
       if(open > today){
-        console.log('come back')
+        // console.log('come back')
         btn.disabled = true
         
       }else if(open < today){
-        console.log('you can view')
+        // console.log('you can view')
         btn.disabled = false
 
 
       }
       else if (open === today) {
-        console.log('view')
+        // console.log('view')
         btn.disabled = false
       }
       
@@ -70,12 +84,19 @@ async function getData() {
 
 
     btn.addEventListener('click', function() {
+        pContent.appendChild(para)
 
-      
+
       calender.style.display='none'
-      chapterContent.hidden = false
-      paragraph.innerHTML= chapters[index] // we are able to get the index of chapters because its in an array
-      title.innerText =`Chapter ${result[index].id}`
+      chapterContent.style.display = 'flex'
+      // chapterContent.hidden = false
+      // toCal.hidden = false
+     
+      para.innerHTML = chapters[index]
+
+
+      // paragraph.innerHTML= chapters[index] // we are able to get the index of chapters because its in an array
+      title.textContent =`Chapter ${result[index].id}`
      
 
 
@@ -87,12 +108,16 @@ async function getData() {
 
 
 backBtn.addEventListener('click', function() {
-  calender.style.display = 'flex'
+    // chapterContent.hidden = true
+console.log('hi');
+chapterContent.style.display = 'none'
+calender.style.display = 'block'
+  // calender.style.display = 'flex'
   setTimeout(() => {
-      popUp.hidden = false
+    popUp.style.display = 'block'
+      // popUp.hidden = false
 
   }, 1500);
-  chapterContent.hidden = true
 
 })
 

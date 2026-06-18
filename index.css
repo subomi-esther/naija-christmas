@@ -67,7 +67,7 @@
     
 }
 body {
-    margin: 0;
+    /* margin: 0; */
     background-color: #843737;
     color: #d4cbc4;
     /* padding: 10px; */
@@ -164,6 +164,7 @@ footer {
    /* display: none; */
    /* position: relative; */
    /* width: fit-content; */
+   /* display: none; */
 
 }
 
@@ -190,9 +191,12 @@ footer {
     grid-template-columns: repeat(7,1fr) ;
     grid-auto-rows: 50px;
     gap: 4px;
-    margin-top: 150px;
+    /* margin-top: 150px; */
 }
-
+.CsText {
+    font-family: pinyon;
+    font-size: 30px;
+}
 .calender p {
     grid-column-start: 1;
     grid-column-end: 5;
@@ -275,10 +279,16 @@ a:hover {
     width: fit-content;
     padding: 20px;
     height: 300px;
+    /* height: fit-content; */
     border-radius: 20px;
     text-align: center;
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
+    top: 30%;
+    left: 0;
+    right: 0;
     z-index: 10;
+    display: none;
 
 }
 
@@ -292,30 +302,28 @@ a:hover {
     margin-left: auto;
 
 }
+
 .chapterContent {
-    padding: 20px;
-    
-}
-.cc {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    padding: 20px;
+    display: none;
+
 } 
 
-.cc h1 {
+.chapterContent h1 {
     font-family: "meddon";
     font-size: 50px;
+    text-align: center;
 }
 
 
-#paragraph {
+.paragraph {
     font-family: "meriendasemibold";
-    max-width: 600px;
+    /* max-width: 600px; */
     white-space: pre-wrap;
     overflow-x:hidden;
     display: flex;
-    
 
 }
 
@@ -324,7 +332,9 @@ a:hover {
     animation-duration: 3s;
 }
 @media screen and (max-width: 430px) { 
-
+    body {
+        /* padding: 10px; */
+    }
 
     main {
         /* width: 100%; */
