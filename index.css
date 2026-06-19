@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family:"CandyCane" ;
     src: url('assets/fonts/Candy\ Cane\ Personal\ Use.ttf');
-}
+} */
 @font-face {
     font-family: "christmasfrost";
     src: url('assets/fonts/Christmas\ Frost\ -\ Demo.otf');
@@ -19,10 +19,10 @@
     font-family: "meddon";
     src: url('assets/fonts/Meddon-Regular.ttf');
 }
-@font-face {
+/* @font-face {
     font-family: "meriendabold";
     src: url('assets/fonts/Merienda-Bold.ttf');
-}
+} */
 @font-face {
     font-family: "meriendaregular";
     src: url('assets/fonts/Merienda-Regular.ttf');
