@@ -117,7 +117,7 @@ calender.style.display = 'block'
     popUp.style.display = 'block'
       // popUp.hidden = false
 
-  }, 1500);
+  }, 1000);
 
 })
 
